@@ -1,0 +1,2 @@
+# GameCubeBackupManager
+ GameCube Backup Manager
