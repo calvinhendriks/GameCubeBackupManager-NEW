@@ -16,5 +16,16 @@ namespace GameCubeBackupManager
         {
             InitializeComponent();
         }
+
+        private void tsmiConfig_Click(object sender, EventArgs e)
+        {
+            formConfig frmConfig = new formConfig();
+            frmConfig.ShowDialog();
+        }
+
+        private void tsmiPrincipalExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
