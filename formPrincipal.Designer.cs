@@ -35,12 +35,12 @@
             this.exportarParaCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarParaTXTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiPrincipalExit = new System.Windows.Forms.ToolStripMenuItem();
             this.capasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sincronizarEBaixarCapasSomente3DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sincronizarEBaixarCapastodasAsCapasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exibirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiPrincipalConfig = new System.Windows.Forms.ToolStripMenuItem();
             this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -78,7 +78,7 @@
             this.atualizarListaToolStripMenuItem,
             this.exportarListaDeJogosToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.sairToolStripMenuItem});
+            this.tsmiPrincipalExit});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
@@ -115,11 +115,12 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(187, 6);
             // 
-            // sairToolStripMenuItem
+            // tsmiPrincipalExit
             // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
+            this.tsmiPrincipalExit.Name = "tsmiPrincipalExit";
+            this.tsmiPrincipalExit.Size = new System.Drawing.Size(190, 22);
+            this.tsmiPrincipalExit.Text = "Sair";
+            this.tsmiPrincipalExit.Click += new System.EventHandler(this.tsmiPrincipalExit_Click);
             // 
             // capasToolStripMenuItem
             // 
@@ -145,16 +146,17 @@
             // exibirToolStripMenuItem
             // 
             this.exibirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configuraçõesToolStripMenuItem});
+            this.tsmiPrincipalConfig});
             this.exibirToolStripMenuItem.Name = "exibirToolStripMenuItem";
             this.exibirToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.exibirToolStripMenuItem.Text = "Exibir";
             // 
-            // configuraçõesToolStripMenuItem
+            // tsmiPrincipalConfig
             // 
-            this.configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
-            this.configuraçõesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.configuraçõesToolStripMenuItem.Text = "Configurações...";
+            this.tsmiPrincipalConfig.Name = "tsmiPrincipalConfig";
+            this.tsmiPrincipalConfig.Size = new System.Drawing.Size(180, 22);
+            this.tsmiPrincipalConfig.Text = "Configurações...";
+            this.tsmiPrincipalConfig.Click += new System.EventHandler(this.tsmiConfig_Click);
             // 
             // ferramentasToolStripMenuItem
             // 
@@ -306,12 +308,12 @@
         private System.Windows.Forms.ToolStripMenuItem exportarParaCSVToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportarParaTXTToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiPrincipalExit;
         private System.Windows.Forms.ToolStripMenuItem capasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sincronizarEBaixarCapasSomente3DToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sincronizarEBaixarCapastodasAsCapasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exibirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiPrincipalConfig;
         private System.Windows.Forms.ToolStripMenuItem ferramentasToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.StatusStrip statusStrip1;
