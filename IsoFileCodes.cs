@@ -2404,43 +2404,47 @@ namespace GameCubeBackupManager
             {
                 textBoxGameID.Text += "WH";
             }
-            else if (makerCode == "WI") // 
+            else if (makerCode == "WI") // Curve Digital
             {
                 textBoxGameID.Text += "WI";
             }
-            else if (makerCode == "WJ") // 
+            else if (makerCode == "WJ") // Studio Walljump
             {
                 textBoxGameID.Text += "WJ";
             }
-            else if (makerCode == "WL") // 
+            else if (makerCode == "WL") // Wired Productions
             {
                 textBoxGameID.Text += "WL";
             }
-            else if (makerCode == "WP") // 
+            else if (makerCode == "WN") // tons of bits
+            {
+                textBoxGameID.Text += "WN";
+            }
+            else if (makerCode == "WP") // White Park Bay Software
             {
                 textBoxGameID.Text += "WP";
             }
-            else if (makerCode == "WQ") // 
+            else if (makerCode == "WQ") // Revistronic
             {
                 textBoxGameID.Text += "WQ";
             }
-            else if (makerCode == "WR") // 
+            else if (makerCode == "WR") // Warner Bros. Interactive Entertainment
             {
                 textBoxGameID.Text += "WR";
             }
-            else if (makerCode == "WS") // 
+            else if (makerCode == "WS") // MonkeyPaw Games
             {
                 textBoxGameID.Text += "WS";
             }
-            else if (makerCode == "WW") // 
+            else if (makerCode == "WW") // Slang Publishing
             {
                 textBoxGameID.Text += "WW";
             }
-            else if (makerCode == "WY") // 
+            else if (makerCode == "WY") // WayForward Technologies
             {
                 textBoxGameID.Text += "WY";
             }
-            else if (makerCode == "WZ") // 
+            else if (makerCode == "WZ") // Wizarbox
             {
                 textBoxGameID.Text += "WZ";
             }
@@ -2448,63 +2452,63 @@ namespace GameCubeBackupManager
             {
                 textBoxGameID.Text += "X0";
             }
-            else if (makerCode == "X3") // 
+            else if (makerCode == "X3") // CK Games
             {
                 textBoxGameID.Text += "X3";
             }
-            else if (makerCode == "X4") // 
+            else if (makerCode == "X4") // Easy Interactive
             {
                 textBoxGameID.Text += "X4";
             }
-            else if (makerCode == "X9") // 
+            else if (makerCode == "X9") // Renegade Kid
             {
                 textBoxGameID.Text += "X9";
             }
-            else if (makerCode == "XB") // 
+            else if (makerCode == "XB") // Hulu
             {
                 textBoxGameID.Text += "XB";
             }
-            else if (makerCode == "XG") // 
+            else if (makerCode == "XG") // XGen Studios
             {
                 textBoxGameID.Text += "XG";
             }
-            else if (makerCode == "XJ") // 
+            else if (makerCode == "XJ") // XSEED Games
             {
                 textBoxGameID.Text += "XJ";
             }
-            else if (makerCode == "XK") // 
+            else if (makerCode == "XK") // Exkee
             {
                 textBoxGameID.Text += "XK";
             }
-            else if (makerCode == "XM") // 
+            else if (makerCode == "XM") // DreamBox Games
             {
                 textBoxGameID.Text += "XM";
             }
-            else if (makerCode == "XN") // 
+            else if (makerCode == "XN") // Netflix
             {
                 textBoxGameID.Text += "XN";
             }
-            else if (makerCode == "XS") // 
+            else if (makerCode == "XS") // Aksys Games
             {
                 textBoxGameID.Text += "XS";
             }
-            else if (makerCode == "XT") // 
+            else if (makerCode == "XT") // Funbox Media
             {
                 textBoxGameID.Text += "XT";
             }
-            else if (makerCode == "XU") // 
+            else if (makerCode == "XU") // Shanblue Interactive
             {
                 textBoxGameID.Text += "XU";
             }
-            else if (makerCode == "XV") // 
+            else if (makerCode == "XV") // Keystone Game Studio
             {
                 textBoxGameID.Text += "XV";
             }
-            else if (makerCode == "XW") // 
+            else if (makerCode == "XW") // Lemon Games
             {
                 textBoxGameID.Text += "XW";
             }
-            else if (makerCode == "XY") // 
+            else if (makerCode == "XY") // Gaijin Games
             {
                 textBoxGameID.Text += "XY";
             }
