@@ -120,6 +120,107 @@ namespace GameCubeBackupManager
             {
                 textBoxGameID.Text += "01";
             }
+
+            else if (makerCode == "01NK") // Stage Clear Studios
+            {
+                textBoxGameID.Text += "01NK";
+            }
+            else if (makerCode == "01PF") // Iron Galaxy Studios
+            {
+                textBoxGameID.Text += "01PF";
+            }
+            else if (makerCode == "0103") // Dolores Entertainment
+            {
+                textBoxGameID.Text += "0103";
+            }
+            else if (makerCode == "011A") // Anzimuz Games
+            {
+                textBoxGameID.Text += "011A";
+            }
+            else if (makerCode == "011D") // Over the Moon
+            {
+                textBoxGameID.Text += "011D";
+            }
+            else if (makerCode == "011F") // Finger Gun Games
+            {
+                textBoxGameID.Text += "011F";
+            }
+            else if (makerCode == "011X") // Tic Toc Games
+            {
+                textBoxGameID.Text += "011X";
+            }
+            else if (makerCode == "012C") // ScrewAttack Games
+            {
+                textBoxGameID.Text += "012C";
+            }
+            else if (makerCode == "013A") // Rain Games
+            {
+                textBoxGameID.Text += "013A";
+            }
+            else if (makerCode == "013S") // Threaks
+            {
+                textBoxGameID.Text += "013S";
+            }
+            else if (makerCode == "0137") // Frogmind
+            {
+                textBoxGameID.Text += "0137";
+            }
+            else if (makerCode == "0148") // Log Games
+            {
+                textBoxGameID.Text += "0148";
+            }
+            else if (makerCode == "0149") // Utopian World of Sandwiches
+            {
+                textBoxGameID.Text += "0149";
+            }
+            else if (makerCode == "015D") // Double 11 Ltd
+            {
+                textBoxGameID.Text += "015D";
+            }
+            else if (makerCode == "015V") // Xiness
+            {
+                textBoxGameID.Text += "015V";
+            }
+            else if (makerCode == "016J") // Headup Games
+            {
+                textBoxGameID.Text += "016J";
+            }
+            else if (makerCode == "016X") // Simogo
+            {
+                textBoxGameID.Text += "016X";
+            }
+            else if (makerCode == "0167") // Galaxy Trail
+            {
+                textBoxGameID.Text += "0167";
+            }
+            else if (makerCode == "0169") // Klei Entertainment
+            {
+                textBoxGameID.Text += "0169";
+            }
+            else if (makerCode == "017C") // Herrero Games
+            {
+                textBoxGameID.Text += "017C";
+            }
+            else if (makerCode == "017D") // Nostatic Software, LLC
+            {
+                textBoxGameID.Text += "017D";
+            }
+            else if (makerCode == "017T") // Rainy Night Creations
+            {
+                textBoxGameID.Text += "017T";
+            }
+            else if (makerCode == "017X") // Blue Isle Studios
+            {
+                textBoxGameID.Text += "017X";
+            }
+            else if (makerCode == "017Z") // Team Meat
+            {
+                textBoxGameID.Text += "017Z";
+            }
+            else if (makerCode == "0185") // Oddworld Inhabitants
+            {
+                textBoxGameID.Text += "0185";
+            }
             else if (makerCode == "02") // Rocket Games / Ajinomoto / Nintendo
             {
                 textBoxGameID.Text += "02";
@@ -2516,151 +2617,129 @@ namespace GameCubeBackupManager
             {
                 textBoxGameID.Text += "Y1";
             }
-            else if (makerCode == "Y4") // 
+            else if (makerCode == "Y4") // Zen Studios
             {
                 textBoxGameID.Text += "Y4";
             }
-            else if (makerCode == "Y5") // 
+            else if (makerCode == "Y5") // Easy Interactive
             {
                 textBoxGameID.Text += "Y5";
             }
-            else if (makerCode == "Y6") // 
+            else if (makerCode == "Y6") // Motiviti
             {
                 textBoxGameID.Text += "Y6";
             }
-            else if (makerCode == "Y7") // 
+            else if (makerCode == "Y7") // The Learning Company
             {
                 textBoxGameID.Text += "Y7";
             }
-            else if (makerCode == "Y9") // 
+            else if (makerCode == "Y9") // RadiationBurn
             {
                 textBoxGameID.Text += "Y9";
             }
-            else if (makerCode == "YC") // 
+            else if (makerCode == "YC") // NECA
             {
                 textBoxGameID.Text += "YC";
             }
-            else if (makerCode == "YD") // 
+            else if (makerCode == "YD") // Infinite Dreams
             {
                 textBoxGameID.Text += "YD";
             }
-            else if (makerCode == "YF") // 
+            else if (makerCode == "YF") // O2 Games
             {
                 textBoxGameID.Text += "YF";
             }
-            else if (makerCode == "YG") // 
+            else if (makerCode == "YG") // Maximum Family Games
             {
                 textBoxGameID.Text += "YG";
             }
-            else if (makerCode == "YJ") // 
+            else if (makerCode == "YJ") // Frozen Codebase
             {
                 textBoxGameID.Text += "YJ";
             }
-            else if (makerCode == "YK") // 
+            else if (makerCode == "YK") // MAD Multimedia
             {
                 textBoxGameID.Text += "YK";
             }
-            else if (makerCode == "YM") // 
+            else if (makerCode == "YM") // Bergsala Lightweight
             {
                 textBoxGameID.Text += "YM";
             }
-            else if (makerCode == "YN") // 
+            else if (makerCode == "YN") // Game Factory
             {
                 textBoxGameID.Text += "YN";
             }
-            else if (makerCode == "YR") // 
+            else if (makerCode == "YR") // Cypronia
             {
                 textBoxGameID.Text += "YR";
             }
-            else if (makerCode == "YS") // 
+            else if (makerCode == "YS") // Yullaby
             {
                 textBoxGameID.Text += "YS";
             }
-            else if (makerCode == "YT") // 
+            else if (makerCode == "YT") // Corecell Technology
             {
                 textBoxGameID.Text += "YT";
             }
-            else if (makerCode == "YV") // 
+            else if (makerCode == "YV") // KnapNok Games
             {
                 textBoxGameID.Text += "YV";
             }
-            else if (makerCode == "YX") // 
+            else if (makerCode == "YX") // Selectsoft
             {
                 textBoxGameID.Text += "YX";
             }
-            else if (makerCode == "YY") // 
+            else if (makerCode == "YY") // FDG Entertainment
             {
                 textBoxGameID.Text += "YY";
             }
-            else if (makerCode == "Z4") // 
+            else if (makerCode == "Z4") // Ntreev Soft
             {
                 textBoxGameID.Text += "Z4";
             }
-            else if (makerCode == "Z5") // 
+            else if (makerCode == "Z5") // Shinsegae I&C
             {
                 textBoxGameID.Text += "Z5";
             }
-            else if (makerCode == "ZA") // 
+            else if (makerCode == "ZA") // WBA Interactive
             {
                 textBoxGameID.Text += "ZA";
             }
-            else if (makerCode == "ZG") // 
+            else if (makerCode == "ZG") // Zallag
             {
                 textBoxGameID.Text += "ZG";
             }
-            else if (makerCode == "ZH") // 
+            else if (makerCode == "ZH") // Internal Engine
             {
                 textBoxGameID.Text += "ZH";
             }
-            else if (makerCode == "ZJ") // 
+            else if (makerCode == "ZJ") // Performance Designed Products
             {
                 textBoxGameID.Text += "ZJ";
             }
-            else if (makerCode == "ZK") // 
+            else if (makerCode == "ZK") // Anima Game Studio
             {
                 textBoxGameID.Text += "ZK";
             }
-            else if (makerCode == "ZP") // 
+            else if (makerCode == "ZP") // Fishing Cactus
             {
                 textBoxGameID.Text += "ZP";
             }
-            else if (makerCode == "ZS") // 
+            else if (makerCode == "ZS") // Zinkia Entertainment
             {
                 textBoxGameID.Text += "ZS";
             }
-            else if (makerCode == "ZV") // 
+            else if (makerCode == "ZV") // RedLynx
             {
                 textBoxGameID.Text += "ZV";
             }
-            else if (makerCode == "ZW") // 
+            else if (makerCode == "ZW") // Judo Baby
             {
                 textBoxGameID.Text += "ZW";
             }
-            else if (makerCode == "ZX") // 
+            else if (makerCode == "ZX") // TopWare Interactive
             {
                 textBoxGameID.Text += "ZX";
             }
-
-
-            else if (makerCode == "LH") // 
-            {
-                textBoxGameID.Text += "LH";
-            }
-            else if (makerCode == "NK") // 
-            {
-                textBoxGameID.Text += "NK";
-            }
-            else if (makerCode == "TK") // 
-            {
-                textBoxGameID.Text += "TK";
-            }
-            else if (makerCode == "VN") // 
-            {
-                textBoxGameID.Text += "VN";
-            }
-        }
-
-
-
     }
 }
