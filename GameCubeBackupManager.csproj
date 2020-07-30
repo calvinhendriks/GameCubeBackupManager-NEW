@@ -39,6 +39,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,11 +52,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileInfoExtension.cs" />
+    <Compile Include="formAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAbout.Designer.cs">
+      <DependentUpon>formAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="formConfig.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formConfig.Designer.cs">
       <DependentUpon>formConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formExtralnformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formExtralnformation.Designer.cs">
+      <DependentUpon>formExtralnformation.cs</DependentUpon>
     </Compile>
     <Compile Include="formPrincipal.cs">
       <SubType>Form</SubType>
@@ -62,10 +77,21 @@
     <Compile Include="formPrincipal.Designer.cs">
       <DependentUpon>formPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="GCDiscInfo.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IniFile.cs" />
+    <Compile Include="IsoFileCodes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USBDeviceInfo.cs" />
+    <EmbeddedResource Include="formAbout.resx">
+      <DependentUpon>formAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formConfig.resx">
       <DependentUpon>formConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formExtralnformation.resx">
+      <DependentUpon>formExtralnformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formPrincipal.resx">
       <DependentUpon>formPrincipal.cs</DependentUpon>
@@ -92,6 +118,105 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\install_iso_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rename.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scraper_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\art_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md5_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automation-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game-cheat_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sincronizar_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tansferir_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-file_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe-earth-grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\website_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Early_Childhood_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Everyone_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Everyone_10+_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Teen_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Mature_17+_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_Adults_Only_18+_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESRB_RP_grayscale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf_file_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
