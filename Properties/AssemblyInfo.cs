@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associadas a um assembly.
 [assembly: AssemblyTitle("GameCube Backup Manager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("GameCube Backup Manager (GCBM) é um software destinado a transferir arquivos de imagem ISO e GCM de jogos do console GameCube para dispositivos diversos (cartão SD, pendrive ou HD).")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Axion Drak")]
 [assembly: AssemblyProduct("GameCube Backup Manager")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Laete Meireles (Axion Drak) © 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
 // usando o "*" como mostrado abaixo:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.16.0")]
-[assembly: AssemblyFileVersion("1.0.16.0")]
+[assembly: AssemblyVersion("2.0.50.0")]
+[assembly: AssemblyFileVersion("2.0.50.0")]
